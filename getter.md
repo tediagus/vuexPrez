@@ -5,7 +5,7 @@ layout: two-cols
 
 C'est une methode qui permet d'effectuer des actions ou opération sur un state dans le store
 
-exmple
+exemple
 
     ```ts
         state: {

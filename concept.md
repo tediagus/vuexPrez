@@ -1,4 +1,4 @@
-# Les conceptes
+# Les concepts
 
 ---
  test
