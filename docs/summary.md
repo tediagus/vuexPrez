@@ -11,8 +11,9 @@
     <li> Les Getters (Accesseurs)</li>
     <li> Les Mutations</li>
     <li> Les Actions</li>
-    <li> Les Plugins</li>
     <li> Les Modules</li>
+    <li> Les Plugins</li>
+    <li> Gestion des formulaires</li>
 </ul>
   
 <style>

@@ -9,12 +9,12 @@ layout: full
 
 <br />
 
-### Définition:
+### Définition
 
 <p class="text-base">
-On appel `state`: un attribut du store. 
+On appel `state`: un attribut du store
 
-C'est une propriété avec une valeur initial qui sera utilisé dans divers composants de notre application,
+C'est une propriété avec une valeur initial qui sera utilisée dans divers composants de notre application,
 et dont la valeur évoluera tout au long de l'application.
 
 Si cet état est amené à changer on dit qu'elle subit une "mutation"
@@ -43,7 +43,7 @@ Il est préférable d'utiliser une fonction qu'on appelle `mutation` que nous ve
     this.$store.state.nomDeMonAttribut
 ```
 
-L'une des plus utilisée et la syntaxe "Déstructuration"
+L'une des plus utilisées et la syntaxe de "destructuration"
 ```ts
 import { mapState } from 'vuex' 
 // Avec la fonction utilitaire mapState 

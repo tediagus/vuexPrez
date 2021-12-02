@@ -3,24 +3,24 @@
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-* Définition:
+* Définition
 <p class="text-sm">
-C'est une fonction qui nous autorise à modifier la valeur d'une propriété du store.
+C'est une fonction qui nous autorise à modifier la valeur d'une propriété du store
 </p>
 
-* implémentation d'une mutation
+* Implémentation d'une mutation
 ```ts{5,6,7,8,10,11,12}
 const store = new Vuex.Store({
     state: {
         count: 1 ; // état à l'initialisation
     },
     mutations:{
-        increment(state , payload) {  
+        increment(state) {  
             // changement de l'etat (muter)
-            state.count ++
+            state.count++
         },
         // avec un argument additionnel :
-        increment( state , n) { 
+        increment(state, payload) { 
             state.count += payload.increment
         },
     }

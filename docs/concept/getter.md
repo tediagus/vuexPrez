@@ -3,9 +3,9 @@
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-* <u>Définitons</u>
+* <u>Définition</u>
 <p class="text-sm">
-C'est une méthode qui permet d'effectuer des actions ou opérations sur un attribut du store.
+C'est une méthode qui permet d'effectuer des actions ou opérations sur un attribut du store
 </p>
 
 ```ts
@@ -23,7 +23,7 @@ state: {
 ```
 
 <p class="text-sm">
-Le résultat du getter est mis en cache. Il sera ré-évaluer que si une dépendance du store venait à changer.
+Le résultat du getter est mis en cache. Il sera ré-évaluer si une dépendance du store vient à changer.
 </p>
 
 </div>

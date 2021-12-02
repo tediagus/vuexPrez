@@ -1,7 +1,7 @@
 <div>
 <div>
 
-* <u>Utilisation d'un action</u>
+* <u>Utilisation d'une action</u>
 
 ```ts
 

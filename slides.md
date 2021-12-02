@@ -39,7 +39,6 @@ src: ./docs/concept/actions.md
 src: ./docs/concept/actions2.md
 ---
 
-
 ---
 src: ./docs/modules/modules.md
 ---
@@ -58,6 +57,10 @@ src: ./docs/plugins/plugins1.md
 
 ---
 src: ./docs/plugins/plugins2.md
+---
+
+---
+src: ./docs/concept/forms.md
 ---
 
 ---

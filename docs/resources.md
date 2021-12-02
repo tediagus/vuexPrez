@@ -1,6 +1,8 @@
 ---
 
-# Lien vers des ressources
+# Liens vers des ressources
+
+* Vuex official documentation: <br> https://vuex.vuejs.org/
 
 * Vuex best practices by timothyokooboh: <br> https://dev.to/timothyokooboh/vuex-best-practices-45dd
 

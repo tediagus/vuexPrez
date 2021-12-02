@@ -7,7 +7,7 @@
 * <u>Définition : </u>
 
 C'est une fonction qui permet de modifier l'état d'une propriété à la différence de la mutation, l'action peut être
-asynchone
+asynchrone
 
 * <u>Cas d'usage :</u>
 
@@ -44,6 +44,17 @@ const store = new Vuex.Store({
     }
   }
 })
+```
+
+```js
+context = { // context can also be destructuring like so: "increment({ commit }) {...}", see all the properties below
+  state,      // same as store.state, or local state if in modules
+  rootState,  // same as store.state, only in modules
+  commit,     // same as store.commit
+  dispatch,   // same as store.dispatch
+  getters,    // same as store.getters, or local getters if in modules
+  rootGetters // same as store.getters, only in modules
+}
 ```
 
 
