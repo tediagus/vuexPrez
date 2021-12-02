@@ -6,16 +6,16 @@
 </div>
 
 ```ts
-     doneTodos: state => sreturn state.todos
+     doneTodos: state => return state.todos
 ```
-* conseillé
+* Conseillé
 <div class="bg-green-400">
  Utiliser l'accesseur pour renvoyer une valeur calculée
 </div>
 
 ```ts
 getters: {
-    doneTodos: state =>  state.todos.filter(todo => todo.dones
+    doneTodos: state =>  state.todos.filter(todo => todo.dones)
 }
     ```
 

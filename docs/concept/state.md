@@ -15,7 +15,7 @@ layout: full
 On appel `state`: un attribut du store. 
 
 C'est une propriété avec une valeur initial qui sera utilisé dans divers composants de notre application,
-et dont la valeur evolura tout au long de l'application.
+et dont la valeur évoluera tout au long de l'application.
 
 Si cet état est amené à changer on dit qu'elle subit une "mutation"
 
@@ -24,26 +24,26 @@ Si cet état est amené à changer on dit qu'elle subit une "mutation"
 
 ###### Petit point d'attention 
 <p class="text-sm">
-Il est déconseilé de modifier un attribut du store directement en modifiant sa valeur.
+Il est déconseillé de modifier un attribut du store directement en modifiant sa valeur.
 
 ```ts
     this.$store.state.age = 30 
 ```
-Il est préférable d'utiliser une fonction qu'on appel `mutation` que nous verrons plus loin.
+Il est préférable d'utiliser une fonction qu'on appelle `mutation` que nous verrons plus loin.
 </p>
 </div>
 </div>
 
 <div>
 
-#### Comment récuperer l'état d'un store dans un composant
+#### Comment récupérer l'état d'un store dans un composant
 
 
 ```ts
     this.$store.state.nomDeMonAttribut
 ```
 
-l'une des plus utilisé et la syntaxe destructurer
+L'une des plus utilisée et la syntaxe "Déstructuration"
 ```ts
 import { mapState } from 'vuex' 
 // Avec la fonction utilitaire mapState 

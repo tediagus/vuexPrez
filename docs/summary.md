@@ -1,7 +1,7 @@
 
 # Petit tour d'horizon
 
-#### Qu'est ce que vuex ? *
+#### Qu'est ce que Vuex ?
 <br/>
 
 #### Les conceptes

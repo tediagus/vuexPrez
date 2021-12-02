@@ -8,15 +8,15 @@
 C'est une fonction qui nous autorise à modifier la valeur d'une propriété du store.
 </p>
 
-* implémetation dune mutation
+* implémentation d'une mutation
 ```ts{5,6,7,8,10,11,12}
 const store = new Vuex.Store({
     state: {
         count: 1 ; // état à l'initialisation
     },
     mutations:{
-        increment( state , payload) {  
-            // changement de l'etat ( muter)
+        increment(state , payload) {  
+            // changement de l'etat (muter)
             state.count ++
         },
         // avec un argument additionnel :
@@ -39,9 +39,9 @@ store.commit('increment')
 store.commit('increment', 2)
 ```
 
-* Bonne pratique pour l'écritrure des mutations (ce n'est pas une obligation)
+* Bonne pratique pour l'écriture des mutations (ce n'est pas une obligation)
 
-Utiliser des constantes pour les types de mutation peut apporter de la clareter dans la lecture du code (c'est dans les standards).
+Utiliser des constantes pour les types de mutation peut apporter de la clarté dans la lecture du code (c'est dans les standards)
 
 
 
@@ -54,14 +54,14 @@ Utiliser des constantes pour les types de mutation peut apporter de la clareter 
  ...
  ````
   
-* Petit rapel 
+* Petit rappel 
 la mutation est synchrone
 </div>
 
 </div>
 
 <!--
-Il est posiblle de passe tout type de valeur dans l'argument additionnels
+Il est possible de passe tout type de valeur dans l'argument additionnels
 object, string, boolean etc...
 
 il est conseillé de passer un object car cela rend la mutation plus descriptives

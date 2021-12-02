@@ -1,5 +1,5 @@
 
-# Le getter (accesseur)
+# Le Getter (Accesseur)
 <div class="grid grid-cols-2 gap-4">
 <div>
 
@@ -16,14 +16,14 @@ state: {
     ]
 },
     getters: {
-    doneTodos: state => {
-    return state.todos.filter(todo => todo.done)
+        doneTodos: state => {
+        return state.todos.filter(todo => todo.done)
     }
 }
 ```
 
 <p class="text-sm">
-Le résultat de l'accesseur est mis en cache. Il sera ré-évaluer que si une dépendance du store venait à changer.
+Le résultat du getter est mis en cache. Il sera ré-évaluer que si une dépendance du store venait à changer.
 </p>
 
 </div>
@@ -50,11 +50,10 @@ computed: {
 //Le plus fréquent 
 //Rajouter les accesseurs dans `computed`
 // avec l'opérateur de décomposition */
-...mapGetters([
-      'doneTodosCount',
-      'anotherGetter',
-    ])
-  }
+...mapGetters({
+      doneTodosCount,
+      anotherGetter,
+    })
 }
 ```
 </div>
