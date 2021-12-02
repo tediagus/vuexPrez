@@ -7,10 +7,10 @@
 #### Les conceptes
 
 <ul class="test">
-    <li> Les states</li>
+    <li> Les States</li>
     <li> Les Getters (Accesseurs)</li>
-    <li> Les mutations</li>
-    <li> Les actions</li>
+    <li> Les Mutations</li>
+    <li> Les Actions</li>
     <li> Les Plugins</li>
     <li> Les Modules</li>
 </ul>
