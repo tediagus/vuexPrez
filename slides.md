@@ -2,52 +2,46 @@
 theme: seriph
 ---
   # Vuex
+
 ---
-
-# Petit tour d'horizon
-
-## Qu'est ce que vuex ?
-
-## Les conceptes
-
--- States
-
-   BAD
-
-   GOOD
-
--- Getters (accesseurs)
-
--- Mutations
-
--- Actions
-
--- Plugins
-
--- Modules
+src: ./docs/summary.md
+---
 
 ---
 src: ./intro.md
 ---
 
 ---
-src: ./state.md
+src: ./docs/concept/state.md
 ---
 
 ---
-src: ./getter.md
+src: ./docs/concept/getter.md
+---
+---
+src: ./docs/concept/getter2.md
 ---
 
 ---
-src: ./modules.md
+src: ./docs/concept/mutations.md
 ---
 
 ---
- Lien vers des ressources
+src: ./docs/concept/actions.md
 ---
 
-* Vuex best practices by timothyokooboh: <br> https://dev.to/timothyokooboh/vuex-best-practices-45dd
+---
+src: ./docs/modules/modules.md
+---
 
-* Architecting Vuex store for large-scale Vue.js applications by Musthaq Ahamad: <br> https://dev.to/localeai/architecting-vuex-store-for-large-scale-vue-js-applications-4f1f
+---
+src: ./docs/modules/modules2.md
+---
 
-* 5 Vuex Plugins For Your Next VueJS Project by Anthony Gore: <br> https://vuejsdevelopers.com/2017/09/11/vue-js-vuex-plugins/
+---
+src: ./docs/modules/modules3.md
+---
+
+---
+src: ./docs/resources.md
+---
