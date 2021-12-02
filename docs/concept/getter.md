@@ -3,15 +3,16 @@
 <div class="grid grid-cols-2 gap-4">
 <div>
 
-### <u>Définitons</u>
-
-C'est une méthode qui permet d'effectuer des actions ou opérations sur un attribut du le store.
+* <u>Définitons</u>
+<p class="text-sm">
+C'est une méthode qui permet d'effectuer des actions ou opérations sur un attribut du store.
+</p>
 
 ```ts
-    state: {
+state: {
     todos: [
-    { id: 1, text: '...', done: true },
-    { id: 2, text: '...', done: false }
+      { id: 1, text: '...', done: true },
+      { id: 2, text: '...', done: false }
     ]
 },
     getters: {
@@ -21,20 +22,24 @@ C'est une méthode qui permet d'effectuer des actions ou opérations sur un attr
 }
 ```
 
-Le résultat de l'accesseur est mis en cache. Il ne sera ré-évaluer que si une dependance change.
+<p class="text-sm">
+Le résultat de l'accesseur est mis en cache. Il sera ré-évaluer que si une dépendance du store venait à changer.
+</p>
 
-on peut accèder a la propriété  de la manière suivant:
+</div>
+<div>
+
+
+* Accès à la propriété
 
 ```ts
 store.getters.doneTodos 
 // -> [{ id: 1, text: '...', done: true }]
 ```
-</div>
-<div>
-Dans un composant il sera instancier dans la proriété computed
+
+* Utilisation du getter dans un composant
 
 ```ts
-
  export default {
  ...
 computed: {

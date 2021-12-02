@@ -1,29 +1,22 @@
 
-
-Ce qu'il n'est pas conseillé de faire 
-
- Utiliser un getter pour renvoyer le state
+# Point d'attention 
+* A éviter : 
+<div class="bg-orange-400">
+ Utiliser un accesseur pour renvoyer le state
+</div>
 
 ```ts
-     doneTodos: state => {
-        return state.todos
-        }
+     doneTodos: state => sreturn state.todos
 ```
-
- Good
-
- Renvoyer une valeur calculée
+* conseillé
+<div class="bg-green-400">
+ Utiliser l'accesseur pour renvoyer une valeur calculée
+</div>
 
 ```ts
-    state: {
-        todos: [
-            { id: 1, text: '...', done: true },
-            { id: 2, text: '...', done: false }
-        ]
-    },
-    getters: {
-        doneTodos: state => {
-            return state.todos.filter(todo => todo.done)
-        }
-    }
+getters: {
+    doneTodos: state =>  state.todos.filter(todo => todo.dones
+}
     ```
+
+
