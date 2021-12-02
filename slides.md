@@ -1,14 +1,19 @@
 ---
 theme: seriph
+preload: false
 ---
+<div v-motion :initial="{ x: -80 }" :enter="{ x: 0}">
   # Vuex
-
+</div >
 ---
 src: ./docs/summary.md
 ---
 
 ---
-src: ./intro.md
+src: ./docs/intro.md
+---
+---
+src: ./docs/intro2.md
 ---
 
 ---

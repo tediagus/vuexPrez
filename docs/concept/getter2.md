@@ -1,4 +1,5 @@
 
+
 Ce qu'il n'est pas conseillé de faire 
 
  Utiliser un getter pour renvoyer le state
