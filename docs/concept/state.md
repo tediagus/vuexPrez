@@ -12,7 +12,7 @@ layout: full
 ### Définition:
 
 <p class="text-base">
-On appel "state": un attribut du store. 
+On appel `state`: un attribut du store. 
 
 C'est une propriété avec une valeur initial qui sera utilisé dans divers composants de notre application,
 et dont la valeur evolura tout au long de l'application.
@@ -20,6 +20,18 @@ et dont la valeur evolura tout au long de l'application.
 Si cet état est amené à changer on dit qu'elle subit une "mutation"
 
 </p>
+  <div class="bg-blue-500">
+
+###### Petit point d'attention 
+<p class="text-sm">
+Il est déconseilé de modifier un attribut du store directement en modifiant sa valeur.
+
+```ts
+    this.$store.state.age = 30 
+```
+Il est préférable d'utiliser une fonction qu'on appel `mutation` que nous verrons plus loin.
+</p>
+</div>
 </div>
 
 <div>
@@ -43,18 +55,7 @@ export default {
 }
 ```
 <br />
-<div class="bg-blue-500">
 
-###### Petit point d'attention 
-<p class="text-sm">
-Il est déconseilé de modifier un attribut du store directement en modifiant sa valeur.
-
-```ts
-    this.$store.state.age = 30 
-```
-Il est préférable d'utiliser une fonction qu'on appel mutation que nous verrons plus loin.
-</p>
-</div>
 </div>
 </div>
 
