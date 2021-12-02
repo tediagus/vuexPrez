@@ -58,7 +58,7 @@ export default new Vuex.Store({
 ```
 
 ```js
-this.$store.dispatch('reset');
+this.$store.dispatch('reset')
 ```
 
 </div>

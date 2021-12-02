@@ -48,5 +48,13 @@ src: ./docs/modules/modules3.md
 ---
 
 ---
+src: ./docs/plugins/plugins1.md
+---
+
+---
+src: ./docs/plugins/plugins2.md
+---
+
+---
 src: ./docs/resources.md
 ---
